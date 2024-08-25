@@ -1,0 +1,46 @@
+/* src/styles/Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-text-container {
+  text-align: justify;
+  max-width: 800px;
+  margin: auto;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-container p {
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.home-buttons {
+  margin-top: 20px;
+}
+
+.button-link {
+  display: inline-block;
+  background-color: #00bfff; /* Celeste */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 0 10px; /* Espacio entre botones */
+  transition: background-color 0.3s;
+}
+
+.button-link:hover {
+  background-color: #1e90ff; /* Celeste más oscuro */
+}

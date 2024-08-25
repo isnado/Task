@@ -1,0 +1,41 @@
+/* src/styles/Navigation.css */
+
+.navigation {
+    display: flex;
+    justify-content: center; /* Centra los enlaces horizontalmente */
+    padding: 10px;
+    background-color: #333; /* Fondo del nav */
+  }
+  
+  .nav-link {
+    display: inline-block;
+    background-color: #00bfff; /* Celeste */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px; /* Espacio entre los enlaces */
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #1e90ff; /* Celeste más oscuro al pasar el cursor */
+  }
+  
+  .logout-button {
+    background-color: #ff4500; /* Naranja para destacar el botón de logout */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 10px; /* Espacio entre los enlaces y el botón de logout */
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff6347; /* Rojo más oscuro al pasar el cursor */
+  }
+  
