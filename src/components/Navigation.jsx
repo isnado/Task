@@ -12,7 +12,7 @@ const Navigation = () => {
       <Link to="/" className="nav-link">Home</Link>
       {authToken ? (
         <>
-          <Link to="/profile" className="nav-link">Profile</Link>
+          <Link to="/profile" className="nav-link">Perfil</Link>
           <Link to="/projects" className="nav-link">Proyectos</Link>
           <button className="logout-button" onClick={logout}>Logout</button>
         </>

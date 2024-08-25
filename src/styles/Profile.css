@@ -1,0 +1,42 @@
+/* src/styles/Profile.css */
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-details {
+    background-color: #1a1a1a;
+    color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .profile-details p {
+    margin: 0.5rem 0;
+  }
+  
+  .profile-details strong {
+    color: #00bfff; /* Efecto celeste */
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  

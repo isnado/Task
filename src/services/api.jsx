@@ -38,3 +38,16 @@ export const deleteProject = async (token, projectId) => {
   });
   return response.status;
 };
+export const fetchUserProfile = async (token) => {
+  const response = await fetch(`${BASE_URL}/users/profiles/profile_data/`, {  // URL actualizada
+    method: 'GET',
+    headers: getAuthHeaders(token),
+  });
+
+  if (!response.ok) {
+    throw new Error('Error fetching profile data');
+  }
+
+  const data = await response.json();
+  return data;
+};
