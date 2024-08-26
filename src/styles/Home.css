@@ -1,5 +1,3 @@
-/* src/styles/Home.css */
-
 .home-container {
   display: flex;
   flex-direction: column;
@@ -31,16 +29,16 @@
 
 .button-link {
   display: inline-block;
-  background-color: #00bfff; /* Celeste */
+  background-color: #00bfff; 
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1rem;
-  margin: 0 10px; /* Espacio entre botones */
+  margin: 0 10px; 
   transition: background-color 0.3s;
 }
 
 .button-link:hover {
-  background-color: #1e90ff; /* Celeste más oscuro */
+  background-color: #1e90ff; 
 }

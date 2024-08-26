@@ -1,0 +1,25 @@
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+
+  .delete-link {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-left: 10px; 
+  }
+  
+  .delete-link:hover {
+    color: darkred;
+  }
+  

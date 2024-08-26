@@ -1,5 +1,13 @@
-import '../styles/Home.css'; 
+import '../styles/Home.css';
 
+/**
+ * Componente funcional `Home` que representa la página de inicio de la aplicación Task To Do.
+ * 
+ * @returns {JSX.Element} Elemento JSX que representa la página de inicio.
+ * 
+ * El componente `Home` muestra un mensaje de bienvenida y una breve descripción de la aplicación
+ * Task To Do.
+ */
 const Home = () => {
   return (
     <div className="home-container">

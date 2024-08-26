@@ -7,6 +7,13 @@ import ProjectDetail from './components/ProjectDetail';
 import Navigation from './components/Navigation';
 import { AuthProvider } from './contexts/AuthContext';
 
+/**
+ * Componente principal.
+ * 
+ * Proporciona el contexto de autenticación a través del `AuthProvider`,
+ * configura el enrutamiento con `react-router-dom` y renderiza los componentes
+ * de navegación y las rutas.
+ */
 function App() {
   return (
     <AuthProvider>

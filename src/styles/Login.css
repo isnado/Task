@@ -1,5 +1,3 @@
-/* src/styles/Login.css */
-
 .login-container {
     display: flex;
     justify-content: center;
@@ -47,7 +45,7 @@
   }
   
   .error-message {
-    color: #ff4d4d; /* Color rojo para el mensaje de error */
+    color: #ff4d4d; 
     font-size: 0.9em;
   }
   
